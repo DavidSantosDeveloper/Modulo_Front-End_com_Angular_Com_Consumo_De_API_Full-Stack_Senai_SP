@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { RestritoRoutingModule } from './shared/restrito/restrito.routing.module';
 
 /*Importações Angular Material*/
 import {MatButtonModule} from '@angular/material/button';
@@ -20,6 +21,14 @@ import { MenuComponent } from './menu/menu.component';
 import { RodapeComponent } from './rodape/rodape.component';
 import { CardPromoGameComponent } from './shared/card-promo-game/card-promo-game.component';
 import { CardBestSellersGameComponent } from './shared/card-best-sellers-game/card-best-sellers-game.component';
+import { RestritoComponent } from './shared/restrito/restrito.component';
+import { AtualizaProdutoComponent } from './shared/atualiza-produto/atualiza-produto.component';
+import { CadrastroProdutoComponent } from './shared/cadrastro-produto/cadrastro-produto.component';
+import { ListagemProdutoComponent } from './shared/listagem-produto/listagem-produto.component';
+import { MenuProdutoComponent } from './shared/menu-produto/menu-produto.component';
+import { ExclusaoProdutoComponent } from './shared/exclusao-produto/exclusao-produto.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -29,7 +38,13 @@ import { CardBestSellersGameComponent } from './shared/card-best-sellers-game/ca
     MenuComponent,
     RodapeComponent,
     CardPromoGameComponent,
-    CardBestSellersGameComponent
+    CardBestSellersGameComponent,
+    RestritoComponent,
+    AtualizaProdutoComponent,
+    CadrastroProdutoComponent,
+    ListagemProdutoComponent,
+    MenuProdutoComponent,
+    ExclusaoProdutoComponent
   ],
   imports: [
     BrowserModule,
@@ -42,7 +57,11 @@ import { CardBestSellersGameComponent } from './shared/card-best-sellers-game/ca
     MatIconModule,
     MatInputModule,
     MatMenuModule,
-    MatToolbarModule
+    MatToolbarModule,
+    FormsModule,
+    HttpClientModule,
+    ReactiveFormsModule,
+    RestritoRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

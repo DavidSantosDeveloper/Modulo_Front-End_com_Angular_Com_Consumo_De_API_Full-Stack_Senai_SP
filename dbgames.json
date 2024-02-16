@@ -1,0 +1,44 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "God of War",
+      "categoria": "ação",
+      "foto": ".\\capa1.jpg",
+      "descricao": "aventura",
+      "preco": 150
+    },
+    {
+      "id": "2",
+      "nome": "Mortal Kombat",
+      "categoria": "luta",
+      "foto": ".\\capa2.jpg",
+      "descricao": "luta",
+      "preco": 120
+    },
+    {
+      "id": "3",
+      "nome": "Street Figther",
+      "categoria": "luta",
+      "foto": ".\\capa3.jpg",
+      "descricao": "luta",
+      "preco": 100
+    },
+    {
+      "id": "4",
+      "nome": "The King of Fighter",
+      "foto": ".\\capa4.jpg",
+      "descricao": "ação",
+      "preco": 119
+    },
+    {
+      "id":50,
+      "nome": "mario bros",
+      "categoria": "",
+      "descricao": "aventura",
+      "foto": "sdffdsfs",
+      "preco": 15
+    }
+
+  ]
+}
