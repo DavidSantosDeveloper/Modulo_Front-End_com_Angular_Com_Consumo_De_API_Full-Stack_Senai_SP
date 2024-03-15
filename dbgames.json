@@ -32,13 +32,20 @@
       "preco": 119
     },
     {
-      "id":50,
+      "id": "50",
+      "nome": "mario bros",
+      "categoria": "",
+      "descricao": "aventura",
+      "foto": "sdffdsfs",
+      "preco": 15
+    },
+    {
+      "id": 0,
       "nome": "mario bros",
       "categoria": "",
       "descricao": "aventura",
       "foto": "sdffdsfs",
       "preco": 15
     }
-
   ]
 }

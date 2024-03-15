@@ -1,14 +1,40 @@
 <main>
   <section id="section-login">
     <form>
-      <div>
-        <label for="email">Email</label>
-        <input name="email"  required  type="email" [(ngModel)]="usuario">
-        <br>
-        <label for="password">Password</label>
-        <input name="password"  type="password" [(ngModel)]="senha">
-      </div>
-      <button (click)="fazerLogin()">Login</button>
+          <!-- <div class="container_campos_email_senha"> 
+
+            <label for="email">Email</label>
+            <input name="email"  required  type="email" [(ngModel)]="usuario">
+         
+            <label for="password">Password</label>
+            <input name="password"  type="password" [(ngModel)]="senha">
+            <button (click)="fazerLogin()">Login</button>
+          </div>
+                
+          -->
+
+          <div class="main">  	
+            <input type="checkbox" id="chk" aria-hidden="true">
+        
+              <div class="signup">
+                <form>
+                  <label for="chk" aria-hidden="true">Sign up</label>
+                  <input type="text" name="txt" placeholder="User name" required="">
+                  <input type="email" name="email" placeholder="Email" required="">
+                  <input type="password" name="pswd" placeholder="Password" required="">
+                  <button>Sign up</button>
+                </form>
+              </div>
+        
+              <div class="login">
+                <form>
+                  <label for="chk" aria-hidden="true">Login</label>
+                  <input type="email" name="email" placeholder="Email" required="">
+                  <input type="password" name="pswd" placeholder="Password" required="">
+                  <button>Login</button>
+                </form>
+              </div>
+          </div>
     </form>
   </section>
 </main>
